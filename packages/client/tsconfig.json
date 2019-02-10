@@ -1,0 +1,14 @@
+{
+  "extends": "../tsconfig.shared.json",
+  "compilerOptions": {
+    "outDir": "lib",
+    "rootDir": "src",
+
+    "baseUrl": "src",
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react"
+  },
+  "references": [
+    { "path": "../shared" }
+  ]
+}

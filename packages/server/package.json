@@ -1,0 +1,23 @@
+{
+  "name": "@app/server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon --watch ./src --ext ts --exec \"ts-node -r tsconfig-paths/register ./src/index.ts\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@app/shared": "^1.0.0",
+    "@types/express": "^4.16.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10",
+    "ts-node": "^8.0.2",
+    "tsconfig-paths": "^3.8.0",
+    "typescript": "^3.3.3"
+  }
+}

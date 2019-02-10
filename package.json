@@ -1,0 +1,19 @@
+{
+  "name": "react-isomorph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build:shared": "tsc -b packages/shared",
+    "watch:shared": "tsc -b -w packages/shared"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.12.24",
+    "eslint": "^5.13.0",
+    "lerna": "^3.11.0",
+    "typescript": "^3.3.3"
+  }
+}
